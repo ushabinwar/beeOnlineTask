@@ -1,0 +1,37 @@
+.hero-container{
+    background: linear-gradient(to right, #11163B, #1B2C2500), url("../../../public/heroImage.jpg");
+    min-height: 90vh;
+    width: 100%;
+    color: white;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+.container{
+    /* background-color: red; */
+    width: 70%;
+    margin:  15vh;
+    
+    
+}
+.container h5{
+    font-weight:100;
+
+}
+.container h1{
+    font-size: 5.7vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    line-height: 7vh;
+
+}
+.container p{
+    font-size: 2vh;
+    background-color: red;
+    width: 50%; 
+    line-height: 3vh;
+    margin-bottom: 5vh;
+
+}

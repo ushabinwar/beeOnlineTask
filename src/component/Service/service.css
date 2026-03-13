@@ -1,0 +1,134 @@
+.services{
+    width:100%;
+    padding:60px 20px;
+    background:#f5f7fb;
+}
+
+.services-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.services-header{
+    width:300px;     /* sab card ki same width */
+    height:220px; 
+}
+
+.heading {
+    /* background-color: red; */
+    position: relative;
+}
+.heading img{
+    position:absolute;
+    width: 40%;
+    right: 20%;
+    bottom: 0%;
+}
+
+.services-header h2{
+    font-size:33px;
+    margin-bottom:10px;
+    line-height: 60px;
+
+}
+
+.services-header p{
+    margin-top: 2vh;
+    margin-bottom:20px;
+    font-size:14px;
+    line-height: 20px;
+    color:#666;
+}
+
+.talk-btn{
+    background:#f4b400;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* grid */
+
+
+
+.services-grid{
+ 
+    margin-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:4vh;
+    justify-content: center; 
+
+}
+
+
+
+
+.service-card{
+    width:300px;
+    height:220px;
+    border-radius:10px;
+    padding:20px;
+
+    background:white;
+    border:1px solid #e5e5e5;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+    transition: all 0.35s ease;
+    cursor:pointer;
+}
+
+.service-card:first-of-type{
+    background-color:#FFD54F;
+}
+
+/* hover effect */
+
+.service-card:hover{
+    background:#FFD54F;   /* yellow color */
+    transform: rotate(-2deg) translateY(-6px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.18);
+}
+
+
+.service-card p{
+    font-size:14px;
+    line-height: 20px;
+    color:#666;
+}
+
+.learn{
+    display:inline-block;
+    margin-top:10px;
+    font-size: 2.3vh;
+    font-weight:600;
+    color:#333;
+}
+
+.hearder-title{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+    gap: 1.5vh;
+    
+}
+.hearder-title img{
+    background-color: #F1F7F4;
+    padding: 7px;
+    border-radius: 1vh;
+    height: 33px;
+    width: 33px;
+    color: red;
+}
+
+@media (max-width:768px){
+    .service-card{
+        width:100%;
+        gap:2vh;
+        height:220px;
+    }
+    
+}

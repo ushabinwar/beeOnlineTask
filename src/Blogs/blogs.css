@@ -1,0 +1,109 @@
+.blog-section{
+padding:60px 5%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 8vh 0;
+    
+}
+.blog-title{
+font-size:30px;
+margin-bottom:40px;
+}
+
+.btns{
+display:flex;
+gap:10px;
+}
+
+.btns button{
+width:40px;
+height:40px;
+border-radius:50%;
+border:none;
+background:black;
+color:white;
+cursor:pointer;
+}
+.para-content p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.btns{
+    margin-top: 2vh;
+}
+
+/* .blog-card{ */
+/* background:white;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+cursor:pointer;
+} */
+
+.blog-card{
+/* background:white; */
+/* background-color: red; */
+
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+cursor:pointer;
+position:relative;   /* add this */
+}
+
+.blog-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:16px;
+position: relative;
+}
+
+.blog-card h3{
+font-size:15px;
+font-weight: 500;
+padding:15px;
+line-height:1.4;
+}
+
+.read-more{
+padding:0 15px 20px;
+font-weight:500;
+}
+
+.tag{
+position:absolute;
+background:white;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+margin:15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+color:black;
+}
+
+.box{
+    
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    top: 2%;
+    z-index: 99;
+    right: 2%;
+}
+.box .elem{
+    background-color: white;
+    font-size: 15px;
+    padding: 4px 14px;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
