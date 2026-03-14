@@ -1,6 +1,5 @@
 import React from "react";
 import "./service.css";
-import yellowLine from '../../../public/yellowLine.PNG'
 import { FiArrowUpRight } from "react-icons/fi";
 
 const services = [
@@ -42,7 +41,7 @@ const Service = () => {
           <div className="services-header">
           <div className="heading">
             <h2>What We Offer</h2>
-            <img className="underline" src={yellowLine} alt="" />
+            <img className="underline" src="../../../public/yellowLine.PNG" alt="" />
           </div>
           <p>
             “Bee Online delivers tailored digital marketing, MLM strategies, website development and AI/ML-driven campaigns for your business.”

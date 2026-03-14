@@ -46,8 +46,6 @@ const blogs = [
   }
 ];
 
-console.log(blogs)
-
 export default function Blogs() {
   return (
     <div className="blog-section">

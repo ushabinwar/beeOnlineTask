@@ -1,40 +1,35 @@
 import React from "react";
 import "./clientimpact.css";
-import yellowLine from '../../../public/yellowLine.PNG'
-import graph from "../../../public/graph.jpg"
-import meet from "../../../public/meet.jpg"
-import costAnalysis from "../../../public/costAnalysis.jpg"
-import disc from "../../../public/disc.jpg"
 
 
 const clients = [
   {
     title: "Traffic Growth",
-    image: graph
+    image:"/graph.jpg"
   },
   {
     title: "Lead Quality",
-    image: costAnalysis
+    image: "/costAnalysis.jpg"
   },
   {
     title: "Cost Per Acquisition",
-    image: disc
+    image: "disc.jpg"
   },
   {
     title: "Conversion Rate",
-    image: meet
+    image: "/meet.jpg"
   },
   {
     title: "Traffic Growth",
-    image: graph
+    image: "/graph.jpg"
   },
   {
     title: "Lead Quality",
-    image: costAnalysis
+    image: "/costAnalysis.jpg"
   },
   {
     title: "Cost Per Acquisition",
-    image: disc
+    image: "disc.jpg"
   },
   // {
   //   title: "Conversion Rate",
@@ -50,7 +45,7 @@ const ClientImpact = () => {
 
          <div className="heading">
                     <h2>Impact On Clients</h2>
-                    <img className="underline" src={yellowLine} alt="" />
+                    <img className="underline" src="../../../public/yellowLine.PNG" alt="" />
           </div>
         <p className="tagline">
           Your Growth. Your KPIs. Our Commitment.

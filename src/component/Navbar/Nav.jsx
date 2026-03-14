@@ -1,8 +1,4 @@
-// 
-
-
 import React, { useState } from 'react'
-import beeonline from "../../../public/beeonline.png"
 import { Link } from 'react-router-dom'
 import "./nav.css"
 import { CiMenuFries } from "react-icons/ci";
@@ -56,7 +52,7 @@ const Nav = () => {
     <nav className="navbar">
 
       <div className="logo">
-        <img src={beeonline} alt="logo" />
+        <img src="../../../public/beeonline.png" alt="logo" />
       </div>
 
       {/* Menu Icon */}
