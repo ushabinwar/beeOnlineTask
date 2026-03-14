@@ -96,7 +96,7 @@ const Hero = () => {
             
         </div>
     </div>
-   <div className='card-wrapper'>
+   <div className='card-wrapper2'>
      {scroll.map((item, index) => (
                 <div className="card" key={index}>
                   <img src={item.image} alt="logo" />
