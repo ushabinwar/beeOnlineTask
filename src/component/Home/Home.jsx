@@ -3,8 +3,10 @@ import Hero from './Hero'
 import './home.css'
 import Service from '../Service/Service'
 import ClientImpact from '../ClientImpact/ClientImpact'
-import TechPartners from '../../TechPartners/TechPartners'
-import Blogs from '../../Blogs/Blogs'
+import TechPartners from '../TechPartners/TechPartners'
+import Blogs from '../Blogs/Blogs'
+import Footer from '../Footer/Footer'
+import Testimonial from '../Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -13,7 +15,9 @@ const Home = () => {
         <Service/>
         <ClientImpact/>
         <TechPartners/>
+        <Testimonial/>
         <Blogs/>
+        <Footer/>
     </div>
   )
 }

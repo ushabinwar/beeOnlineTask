@@ -1,39 +1,28 @@
 import React from 'react'
 import './techpartners.css'
-import google from '../../public/google.png'
-import microsoft from '../../public/microsoft.png'
-import apple from '../../public/apple.png'
-import meta from '../../public/meta.png'
-import aws from '../../public/aws.png'
-import semrush from '../../public/semrush.png'
-import ahrefs from '../../public/ahrefs.png'
-import looker from '../../public/looker.png'
-import webflow from '../../public/webflow.png'
-import figma from '../../public/figma.png'
-import shopify from '../../public/shopify.png'
-import zapier from '../../public/zapier.png'
+
 
 
 const TechPartners = () => {
     const company = [
       {
-        image:microsoft,
+        image:"/microsoft.png",
         id:1
       },
       {
-        image:apple,
+        image:"/apple.png",
         id:2
         },
       {
-        image:google,
+        image:"/google.png",
         id:3
        },
       {
-        image:meta,
+        image:"/meta.png",
         id:4
         },
       {
-        image:aws,
+        image:"/aws.png",
         id:5
         }
     ];
@@ -41,77 +30,71 @@ const TechPartners = () => {
 
      const company2 = [
       {
-        image:semrush,
+        image:"/semrush.png",
         id:1
       },
       {
-        image:ahrefs,
+        image:"/ahrefs.png",
         id:2
         },
       {
-        image:looker,
+        image:"/looker.png",
         id:3
        },
       {
-        image:meta,
+        image:"meta.png",
         id:4
         },
       {
-        image:webflow,
+        image:"webflow.png",
         id:5
       },
       {
-        image:webflow,
+        image:"shopify.png",
         id:5
       },
       {
-        image:figma,
+        image:"figma.png",
         id:6
       },
       {
-        image:shopify,
+        image:"zapier.png",
         id:7
       },
       {
-        image:zapier,
+        image:"/semrush.png",
         id:8
       },
       {
-        image:semrush,
-        id:1
-      },
-      {
-        image:ahrefs,
-        id:2
+        image:"/ahrefs.png",
+        id:9
         },
       {
-        image:looker,
-        id:3
+        image:"/looker.png",
+        id:10
        },
       {
-        image:meta,
-        id:4
+        image:"meta.png",
+        id:11
         },
       {
-        image:webflow,
-        id:5
+        image:"webflow.png",
+        id:12
       },
       {
-        image:webflow,
-        id:5
+        image:"shopify.png",
+        id:13
       },
       {
-        image:figma,
-        id:6
+        image:"figma.png",
+        id:14
       },
       {
-        image:shopify,
-        id:7
+        image:"zapier.png",
+        id:15
       },
-      {
-        image:zapier,
-        id:8
-      },
+      
+      
     ];
     
   return (

@@ -1,0 +1,179 @@
+.footer-wrapper{
+    background:#050c2c;
+    padding-top:120px;
+    position:relative;
+}
+
+/* CTA Yellow Box */
+
+.cta-box{
+    background:#f4b000;
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    padding:40px 30px;
+    border-radius:20px;
+
+    position:absolute;
+    top:-20%;
+    left:0;
+    right:0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.cta-box h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.cta-box p{
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.cta-features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    color: gray;
+    align-items: center;
+}
+
+.cta-btn{
+    background:#050c2c;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* Footer */
+
+.footer{
+    padding:60px 8%;
+    color:white;
+
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 2fr;
+    gap:40px;
+}
+
+.logo{
+    font-size:26px;
+    /* margin-bottom:15px; */
+}
+
+.footer-about p{
+    font-size:14px;
+    color:#cfcfcf;
+    line-height:1.6;
+    
+}
+
+.social-icons span{
+    margin-right:12px;
+    cursor:pointer;
+}
+
+.footer-links h3{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    display:block;
+    margin-bottom:10px;
+    text-decoration:none;
+    color:#cfcfcf;
+}
+
+.footer-links a:hover{
+    color:white;
+}
+
+.subscribe-box{
+    display:flex;
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+}
+
+.subscribe-box input{
+    flex:1;
+    border:none;
+    padding:10px;
+    outline:none;
+}
+
+.subscribe-box button{
+    background:#f4b000;
+    border:none;
+    padding:10px 15px;
+}
+
+.subscribe-note{
+    font-size:12px;
+    margin-top:10px;
+    color:#cfcfcf;
+}
+
+.footer-bottom{
+    border-top:1px solid #1b1f40;
+    margin-top:40px;
+    padding-top:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    font-size:13px;
+    color:#cfcfcf;
+}
+/* .footer-data{
+    display: flex;
+    
+    justify-content: space-between;
+
+} */
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.footer-container{
+    grid-template-columns:1fr;
+    
+    padding-top: 20vh;
+}
+
+/* .cta-box{
+    position:static;
+    margin-bottom:40px;
+} */
+
+.cta-box{
+    top:-10%;
+    width:90%;
+}
+/* .footer-data{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.cta-features{
+    flex-direction:column;
+    gap:10px;
+}
+
+.footer-bottom{
+    flex-direction:column;
+    text-align:center;
+    gap:10px;
+}
+
+}

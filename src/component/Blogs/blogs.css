@@ -1,5 +1,7 @@
 .blog-section{
-padding:60px 5%;
+ padding:2px 5%;
+ padding-bottom: 10vh;
+ padding-bottom: 25vh;
 }
 .content{
     display: flex;
@@ -9,7 +11,7 @@ padding:60px 5%;
 }
 .blog-title{
 font-size:30px;
-margin-bottom:40px;
+margin-bottom:20px;
 }
 
 .btns{
@@ -22,8 +24,9 @@ width:40px;
 height:40px;
 border-radius:50%;
 border:none;
-background:black;
-color:white;
+/* background:black; */
+
+color:black;
 cursor:pointer;
 }
 .para-content p {
@@ -35,14 +38,6 @@ cursor:pointer;
     margin-top: 2vh;
 }
 
-/* .blog-card{ */
-/* background:white;
-border-radius:16px;
-overflow:hidden;
-box-shadow:0 8px 25px rgba(0,0,0,0.08);
-transition:0.3s;
-cursor:pointer;
-} */
 
 .blog-card{
 /* background:white; */
@@ -89,7 +84,7 @@ margin:15px;
 color:black;
 }
 
-.box{
+.boxee{
     
     position: absolute;
     display: flex;
@@ -98,7 +93,7 @@ color:black;
     z-index: 99;
     right: 2%;
 }
-.box .elem{
+.boxee .elem{
     background-color: white;
     font-size: 15px;
     padding: 4px 14px;
@@ -106,4 +101,9 @@ color:black;
     border: 1px solid white;
     border-radius: 10px;
 
+}
+@media (max-width:768px){
+    .content{
+        flex-direction: column;
+    }
 }

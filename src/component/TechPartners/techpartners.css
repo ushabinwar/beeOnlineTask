@@ -1,52 +1,9 @@
-/* .tech-partner-container{
-    background-color: red;
-    height: 100vh;
-    width: 100%;
-    background-color: white;
- 
-
-}
-.card-container{
- 
-    display: flex;
-    gap: 3vh;
-    justify-content: center;
-    
-}
-.card{
-    width: 20vh;
-    height: 13vh;
-    
-     background:white;
-    border:1px solid #f7f2f2;
-
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-
-    transition: all 0.35s ease;
-    cursor:pointer;
-    padding: 3px;
-    margin: 5vh 0;
-}
-.card img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-.tech-partner-container h1 {
-   
-    text-align: center;
-    margin: 5vh 0vh ;
-    
-}
-.tech-partner-container h1 span{
-    color:#FAB713;
-} */
-
 .tech-partner-container{
     width:100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color:white;
     padding:40px 15px;
+   
 }
 
 /* card container */
@@ -58,15 +15,6 @@
     flex-wrap:wrap;   /* important: cards next line me aa jayenge */
 }
 
-/* .card-container2{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    background: red;
-    
-} */
-
-/* card */
 
 .card{
     width:150px;
@@ -106,38 +54,19 @@
     color:#FAB713;
 }
 
-/* .card2{
-    width:150px;
-    height:90px;
-
-    background:white;
-    border:1px solid #f7f2f2;
-
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-
-    transition:all 0.35s ease;
-    cursor:pointer;
-    padding:5px;
-} */
-/* .card2 img{
-    height:100%;
-    width:100%;
-    object-fit:contain;
-} */
 
 .card-container2{
     display:flex;
     gap:20px;
     justify-content:center;
-    background:red;
     overflow:hidden;
 }
 
-/* inner wrapper jo move karega */
+
 .card-wrapper{
     display:flex;
     gap:20px;
-    animation: slideCards 30s linear infinite;
+    /* animation: slideCards 30s linear infinite; */
 }
 
 .card2{

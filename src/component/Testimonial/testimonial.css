@@ -1,0 +1,117 @@
+.testimonial-section{
+    width:100%;
+    padding:0 5%;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+/* Left Side */
+
+.testimonial-left{
+    flex:1;
+}
+
+.testimonial-left h2{
+    font-size:30px;
+    font-weight:700;
+}
+
+.testimonial-left p{
+    margin-top:10px;
+    color:gray;
+    letter-spacing:1px;
+}
+
+/* Right Side */
+
+.testimonial-right{
+    flex:1.5;
+    /* background:#fafafa; */
+    padding:40px;
+    border-radius:12px;
+    position:relative;
+}
+
+.quote{
+    font-size:60px;
+    color:#ddd;
+}
+
+.testimonial-right h3{
+    font-size:22px;
+    margin:10px 0;
+}
+
+.testimonial-text{
+    color:#555;
+    line-height:1.6;
+}
+
+.company-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.company-info img{
+    width:100px;
+}
+
+.company-info h4{
+    font-size:16px;
+}
+
+.company-info p{
+    font-size:13px;
+    color:gray;
+}
+
+hr{
+    margin:20px 0;
+}
+
+/* Navigation */
+
+.testimonial-nav{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-top:15px;
+}
+
+.testimonial-nav button{
+    border:none;
+    background:#eee;
+    padding:8px 12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.testimonial-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.testimonial-left h2{
+    font-size:32px;
+}
+
+.testimonial-right{
+    width:100%;
+}
+
+.company-info{
+    justify-content:center;
+}
+
+}

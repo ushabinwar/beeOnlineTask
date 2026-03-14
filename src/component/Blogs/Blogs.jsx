@@ -91,7 +91,7 @@ export default function Blogs() {
             <div className="blog-card">
 
               <div>
-                <div className="box">
+                <div className="boxee">
     {item?.tag?.map((tag, index) => (
       <div className="elem" key={index}>
         {tag}
