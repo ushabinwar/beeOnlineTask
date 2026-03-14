@@ -52,6 +52,12 @@ const Hero = () => {
         image:"/logoipsum.png",
         id:7
       },
+      {
+        image:"/logoipsum.png",
+        id:5
+      },
+      
+      
      
       
       
